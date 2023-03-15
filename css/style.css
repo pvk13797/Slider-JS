@@ -1,0 +1,35 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+img{
+    width: auto;
+    max-width: 100%;
+    margin: 0 auto;
+}
+.slide_img{
+    display: none;
+    height: 400px;
+}
+.slider{
+    display: block;
+    max-width: 800px;
+    width: 100%;
+    margin: 0 auto;
+}
+.slide_controller{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.slider_btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    background-color: #FFFFFF;
+}

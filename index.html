@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slider</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="slider">
+        <!-- Images to show in slide -->
+        <div class="slide_img">
+            <img src="images/img1.jpg" alt="image-1">
+        </div>
+        <div class="slide_img">
+            <img src="images/img2.jpg" alt="image-2">
+        </div>
+        <div class="slide_img">
+            <img src="images/img3.jpg" alt="image-3">
+        </div>
+        <div class="slide_img">
+            <img src="images/img4.jpg" alt="image-4">
+        </div>
+        <!-- Slide Controller -->
+        <div class="slide_controller">
+            <a class="slider_btn previous" onclick="setSlide(-1)">
+                <svg xmlns="http://www.w3.org/2000/svg" height="48"
+                    width="48">
+                    <path d="M28.05 36 16 23.95 28.05 11.9l2.15 2.15-9.9 9.9 9.9 9.9Z" />
+                </svg>
+            </a>
+            <a class="slider_btn next" onclick="setSlide(1)">
+                <svg xmlns="http://www.w3.org/2000/svg" height="48"
+                    width="48">
+                    <path d="m18.75 36-2.15-2.15 9.9-9.9-9.9-9.9 2.15-2.15L30.8 23.95Z" />
+                </svg>
+            </a>
+        </div>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
